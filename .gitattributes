@@ -1,0 +1,29 @@
+# Set the default behavior for text files to normalize line endings
+* text=auto
+
+# Explicitly set C# files to use LF line endings
+*.cs text eol=lf
+
+# Visual Studio solution and project files — use CRLF (Windows style)
+*.sln text eol=crlf
+*.csproj text eol=crlf
+
+# Treat Markdown and text files as text, normalize
+*.md text
+*.txt text
+
+# Treat JSON files as text
+*.json text
+
+# Keep shell scripts LF (useful if you add scripts later)
+*.sh text eol=lf
+
+# Ensure no binary files get normalized
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.exe binary
+*.dll binary
