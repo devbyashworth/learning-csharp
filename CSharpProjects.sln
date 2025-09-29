@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApp", "HelloWorldApp\HelloWorldApp.csproj", "{C93E589B-AE41-E574-3DA8-CEEF9916830C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApp", "Basics\HelloWorldApp\HelloWorldApp.csproj", "{C93E589B-AE41-E574-3DA8-CEEF9916830C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{C53D6FB7-C031-4AE6-B42A-4D8CAE6CCE83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Basics\HelloWorld\HelloWorld.csproj", "{C53D6FB7-C031-4AE6-B42A-4D8CAE6CCE83}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{E0C47082-7DB9-49FD-8239-AE12F45E4F81}"
 EndProject
