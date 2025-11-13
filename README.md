@@ -1,154 +1,158 @@
-# 📚 C# Learning Journey
+# 🚀 C# Learning Journey
 
-Welcome to my **C# Learning Journey** repository!  
-This repo is a collection of practice projects, coding challenges, console apps, and fun mini games I'm building to sharpen my skills in C#.
+Welcome to my **C# Learning Journey Repository** — a structured collection of projects, challenges, and applications built as I explore the world of C# programming.  
+Each folder represents a new step in my growth as a developer — from learning syntax to building real-world console apps.
 
-<br/>
+---
 
-## 🧰 Technologies Used
-
-![C#](https://img.shields.io/badge/-C%23-239120?logo=csharp&logoColor=white&style=flat-square)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?logo=dotnet&logoColor=white&style=flat-square)
-![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-5C2D91?logo=visualstudio&logoColor=white&style=flat-square)
-
-<br/>
-
-## 📂 Project Structure
+## 🧭 Repository Structure
 
 ```
+
 csharp-learning-journey/
 │
-├── Basics/                      # Fundamental beginner exercises
-│   ├── HelloWorld/
-│   ├── HelloWorldApp/
-│
-├── Challenges/                 # Coding challenges & practice problems
-│   ├── ChallengeProject-foreach-if-array-CSharp/
-│   ├── FraudulentOrderChallenge/
-│   ├── SubscriptionRenewalRate/
-│
-├── Games/                      # Small console games
-│   ├── RockPaperScissorsGame/
-│   ├── WordGuessingGame/
-│   ├── NumberGuessingGame/
-│
-├── Applications/              # Console apps and mini projects
-│   ├── StudentGradingApplication/
-│   ├── TestProject/
-│
-├── CSharpProjects.sln         # Visual Studio solution file
-└── README.md                  # This file
+├── Basics/                     # Fundamental beginner exercises
+├── Challenges/                 # Practice problems & logic challenges
+├── GuidedProjects/             # Structured learning & guided projects
+├── Games/                      # Small interactive console games
+├── ConsoleApps/                # Functional console-based applications
+├── Applications/               # Larger, multi-featured programs
+├── MiniProjects/               # Experimental or creative C# mini builds
+├── Tools/                      # Utility tools & data manipulation projects
+├── WinForms/                   # GUI-based desktop projects (coming soon)
+└── README.md                   # You’re here!
+
 ```
 
-<br/>
+---
 
-## ✅ What’s Inside?
+## 🧱 **1. Basics/**
+> 📘 Simple starter programs — where it all began.
 
-### ✔️ Basics
-Projects that introduce syntax, `Console.WriteLine`, input/output, variables, and conditions.
+- `HelloWorld/` → Classic first program  
+- `HelloWorldApp/` → Slightly extended “Hello World” example using variables and console formatting  
 
-### ✔️ Challenges
-Focused tasks to strengthen problem-solving with arrays, loops, and branching.
+---
 
-### ✔️ Games
-Console-based games for practicing user interaction, randomness, and control flow.
+## 💡 **2. Challenges/**
+> 🧠 Coding puzzles that sharpen logic and C# fundamentals.
 
-### ✔️ Applications
-Realistic projects blending multiple concepts into useful, testable mini apps.
+- `ChallengeProject-foreach-if-array-CSharp/` → Arrays and loop logic  
+- `FraudulentOrderChallenge/` → Conditional structures  
+- `SubscriptionRenewalRate/` → Calculations and flow control  
+- *(and many more…)*  
 
-<br/>
+---
 
-## 🛠️ Development Setup
+## 🧩 **3. GuidedProjects/**
+> 🧭 Structured, step-by-step projects that apply multiple C# concepts.
 
-You can work comfortably with either **Visual Studio Community** or **Visual Studio Code**, depending on your preferred workflow.
+- `Guided-project-Debug-and-handle-exceptions/`  
+- `GuidedProject-PlanaPettingZooVisit/`  
+- `Guided-Project-Branching-Looping/`  
+- `Guided-project-Work-with-variable-data-in-CSharp-main/`  
 
-<details>
-  <summary>🎯 Visual Studio Setup</summary>
+These projects show how I combined control flow, error handling, and debugging into complete mini systems.
 
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/devbyashworth/learning-csharp.git
-   cd learning-csharp
-   ```
+---
 
-2. **Open Solution in Visual Studio:**  
-   Launch `CSharpProjects.sln`.
+## 🎮 **4. Games/**
+> 🎲 Fun console games built purely in C#.
 
-3. **Build & Run Projects:**  
-   Pick a folder from Solution Explorer and hit `F5` to start coding 🚀
+- `RockPaperScissorsGame/`  
+- `WordGuessingGame/`  
+- `NumberGuessingGame/`  
+- `DiceMini-GameChallenge/`  
 
-4. **Customize:**  
-   Add your own folders and experiments as you learn!
+Each game reinforces loops, randomization, and user interaction.
 
-</details>
+---
 
-<details>
-  <summary>🛠️ VS Code Setup</summary>
+## 💻 **5. ConsoleApps/**
+> 🧰 Real-world console-based projects with full functionality.
 
-1. **Dependencies:**
-   - [.NET SDK](https://dotnet.microsoft.com/download)
-   - [C# Extension by OmniSharp](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-   - *(Optional)* [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- `Console-App-ATM-Simulation/`  
+- `Console-App-Bank-Account-Simulator/`  
+- `Console-App-Contact-Book/`  
+- `Console-App-Library-Book-Manager/`  
+- `Console-App-Employee-Payroll-System/`  
+- `Console-App-Inventory-Management-System/`  
+- *(and more practical console apps...)*  
 
-2. **Clone this repository:**
-   ```bash
-   git clone https://github.com/devbyashworth/learning-csharp.git
-   cd learning-csharp
-   ```
+---
 
-3. **Build & Run from Terminal:**
-   ```bash
-   dotnet build
-   dotnet run --project Basics/HelloWorld/HelloWorld.csproj
-   ```
+## 🧠 **6. Applications/**
+> 🧮 Larger, structured programs demonstrating real-world logic and organization.
 
-4. **Customize Workspace:**
-   - Add `.vscode/launch.json` for debugging.
-   - Use `Solution Explorer` extension for tree view.
+- `StudentGradingApplication/`  
+- `TestProject/`  
+- *(More projects coming soon!)*  
 
-</details>
+---
 
-✅ Supports:
-- Windows, macOS, and Linux
-- CLI workflows and full IDE debugging
-- Git version control for collaboration
+## 🪄 **7. MiniProjects/**
+> 💡 Small experimental or creative console projects.
 
-<br/>
+- `RolePlayingGameBattleChallenge/`  
+- `Pyramid-Drawing-App/`  
+- `VariableScopeChallenge/`  
 
-## 🚀 My Learning Checklist
+---
 
-✅ Variables & Data Types  
-✅ Conditional Statements  
-✅ Loops (for, while, foreach)  
-✅ Arrays & Collections  
-✅ Methods  
-⬜ Object-Oriented Programming  
-⬜ LINQ  
-⬜ File I/O  
-⬜ Unit Testing  
-⬜ .NET Core & Advanced Topics  
+## ⚙️ **8. Tools/**
+> 🧰 Utility tools and text/data manipulation helpers.
 
-<br/>
+- `EncryptionDecryptionTool/`  
+- `Search-App/`  
+- `WorkWithVariableData/`  
 
-## 🔮 Coming Soon
+---
 
-✨ Class-based Projects  
-✨ LINQ Challenges  
-✨ File I/O Explorations  
-✨ Test Projects using xUnit  
-✨ Desktop or Web GUI apps (WPF/Blazor)
+## 🪟 **9. WinForms/**
+> 🖥️ GUI-based applications for Windows — built using WinForms.
 
-<br/>
+- `ContactBookWinForms/` *(coming soon!)*  
 
-## 📌 License
+---
 
-This repository is for **personal learning and practice**.  
-Fork it, remix it, and use it to accelerate your C# journey!
+## 📘 **Technologies Used**
+- 🧱 **Language:** C# (.NET)  
+- 🧰 **IDE:** Visual Studio / VS Code  
+- 🧩 **Concepts Covered:**  
+  - Data types & variables  
+  - Loops, conditions & arrays  
+  - Exception handling  
+  - Debugging & reusable methods  
+  - File I/O & data manipulation  
+  - Object-oriented programming  
+  - Console interaction  
 
-<br/>
+---
 
-## 👋 Let’s Connect!
+## 🧑‍💻 **About This Repository**
+This repository represents my hands-on learning experience with **C# programming** — inspired by tutorials, freeCodeCamp, Microsoft Learn, and self-guided projects.  
 
-Got feedback or fun challenge ideas?  
-Feel free to [open an issue](https://github.com/devbyashwort/learning-csharp/issues) or [submit a pull request](https://github.com/devbyashwort/learning-csharp/pulls)!
+Each project folder includes:
+- `Program.cs` → Source code  
+- `README.md` → Explanation, concepts, and output examples *(added progressively)*  
 
+---
+
+## 🌟 **Future Plans**
+- Add README files to each individual project  
+- Expand with GUI and ASP.NET projects  
+- Include tests and documentation for major apps  
+
+---
+
+## 🤝 **Connect With Me**
+👋 I’d love to connect with other learners and developers!
+
+- 💼 [GitHub Profile](https://github.com/devbyashworth)  
+- 📸 [Instagram](https://instagram.com/devbyashworth)  
+- 🌐 [Portfolio Website](https://devbyashworth.vercel.app/)  
+
+---
+
+### 🧩 “Every project, no matter how small, is a step toward mastery.”  
+**— Ashworth Sakara**
